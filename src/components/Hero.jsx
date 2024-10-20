@@ -60,10 +60,10 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      {/* <div className="absolute sm:bottom-2 bottom-20 w-full flex justify-center items-center">
-        <a href="#about">
+      <div className="absolute sm:bottom-2 bottom-2 w-full flex justify-center items-center">
+        <a href="#work">
           <div className="w-[34px] h-[54px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
-            <motion.div
+            {/* <motion.div
               animate={{
                 y: [-15, 20, -15],
               }}
@@ -73,10 +73,10 @@ const Hero = () => {
                 repeatType: "loop",
               }}
               className="w-3 h-2.5 rounded-full bg-secondary mb-1"
-            />
+            /> */}
           </div>
         </a>
-      </div> */}
+      </div>
     </section>
   );
 };
