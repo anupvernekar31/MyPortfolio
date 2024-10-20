@@ -9,10 +9,10 @@ import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
-    {/* <motion.div
+    <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
-    > */}
+    >
       <div
         options={{
           max: 45,
@@ -27,17 +27,17 @@ const ServiceCard = ({ index, title, icon }) => (
           {title}
         </h3>
       </div>
-    {/* </motion.div> */}
+    </motion.div>
   </Tilt>
 );
 
 const About = () => {
   return (
     <>
-      {/* <motion.div variants={textVariant()}> */}
+      <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>Introduction</p>
         <h2 className={`${styles.sectionHeadText} text-center`}>Overview</h2>
-      {/* </motion.div> */}
+      </motion.div>
 
       <p
         variants={fadeIn("", "", 0.1, 1)}
