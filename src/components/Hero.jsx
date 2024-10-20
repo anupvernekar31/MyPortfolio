@@ -48,7 +48,7 @@ const Hero = () => {
             />
           </div>
 
-          <p className="py-5 bottom-[120px] max-w-3xl font-medium">
+          <p className="py-5 bottom-[120px] max-w-3xl font-medium hidden sm:block">
             I am a motivated and versatile individual, always eager to take on
             new challenges. With a passion for learning I am dedicated to
             delivering high-quality results. With a positive attitude and a
@@ -60,7 +60,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute sm:bottom-2 bottom-5 w-full flex justify-center items-center">
+      <div className="absolute sm:bottom-2 bottom-20 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[34px] h-[54px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
             <motion.div
