@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.4",
     "@react-three/drei": "^9.114.3",
     "@react-three/fiber": "^8.17.10",
     "framer-motion": "^11.11.8",
@@ -20,6 +23,7 @@
     "react-router-dom": "^6.27.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "styled-components": "^6.1.13",
     "three": "^0.169.0",
     "three-mesh-bvh": "^0.8.2",
     "typewriter-effect": "^2.21.0"

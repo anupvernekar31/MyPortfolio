@@ -340,4 +340,22 @@ const education = [
   },
 ];
 
-export { services, technologies, experiences, projects, education };
+const Bio = {
+  name: "Anup Vernekar",
+  roles: [
+    "Full Stack Developer",
+    "Mobile Developer",
+    "Programmer",
+  ],
+  description:
+    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  github: "https://github.com/anupvernekar31",
+  resume:
+    "https://drive.google.com/file/d/10CPABfCTluV5r_HU1PitLY4GVZSi2nfS/view",
+  linkedin: "https://www.linkedin.com/in/anupvernekar/",
+  twitter: "https://twitter.com/anupvernekar31",
+  insta: "https://www.instagram.com/a__noob__/",
+  facebook: "https://www.facebook.com/anup.vernekar.33/",
+};
+
+export { services, technologies, experiences, projects, education, Bio };
