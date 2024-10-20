@@ -60,7 +60,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute sm:bottom-2 bottom-20 w-full flex justify-center items-center">
+      {/* <div className="absolute sm:bottom-2 bottom-20 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[34px] h-[54px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
             <motion.div
@@ -76,7 +76,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
