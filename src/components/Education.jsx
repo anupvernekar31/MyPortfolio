@@ -89,7 +89,7 @@ const Education = () => {
           target="display"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/10CPABfCTluV5r_HU1PitLY4GVZSi2nfS/view?usp=drive_link",
+              "https://drive.google.com/file/d/15_R7eEHVPNhgAgxeNrPIVRf_2ve_76RP/view?usp=sharing",
               "_blank"
             )
           }
